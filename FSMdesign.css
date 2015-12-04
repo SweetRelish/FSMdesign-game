@@ -1,0 +1,301 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  color: black;
+  margin: 0;
+  background-color: black;
+  font-size: 100%;
+}
+
+#header {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 12vw;
+  width: 100%;
+  background: -webkit-linear-gradient(top, rgb(102, 214, 255), rgb(102, 145, 255));
+}
+
+#header_words {
+  font-size: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  color: white;
+}
+
+#menu {
+  letter-spacing: 0;
+  word-spacing: 0;
+  text-align: center;
+  width: 100vw;
+  height: 4vw;
+  background: -webkit-linear-gradient(top, grey, black);
+  margin-bottom: 2vw;
+}
+
+.menu_box {
+  position: relative;
+  text-align: center;
+  height: 100%;
+  width: 15vw;
+  display: inline-block;
+  color: white;
+  vertical-align: top;
+  font-size: 2.2vw;
+  background: -webkit-linear-gradient(top, grey, black);
+}
+
+.menu_box > img {
+  padding-top: 1.4vw;
+  padding-right: 1vw;
+  width: 1.9vw;
+}
+
+.menu_box:hover {
+  background: -webkit-linear-gradient(top, white, black);
+  cursor: pointer;
+}
+
+a > span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+@-webkit-keyframes slide {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: cyan;
+  }
+}
+
+#ending {
+  margin-top: 2vw;
+  height: 9vw;
+  width: 100%;
+  background: -webkit-linear-gradient(top, gray, black);
+}
+
+#slogan {
+  position: relative;
+  margin-left: 0;
+  width: 48%;
+  display: inline-block;
+  left: -5%;
+  top: 10%;
+  color: white;
+  font-size: 1.1vw;
+  vertical-align: top;
+}
+
+#contact {
+  text-align: left;
+  width: 28%;
+  display: inline-block;
+  position: relative;
+  background-color: grn;
+  color: white;
+  top: 10%;
+  left: 10%;
+  font-size: 0.9vw;
+}
+
+#contact a {
+  color: white;
+}
+
+#gamearea {
+  width: 80vw;
+  heigth: 100vw;
+  margin-top: 1vw;
+  background-color: ;
+  display: inline-block;
+  position: relative;
+}
+
+#battlebackground {
+  width: 80vw;
+  position: absote;
+}
+#boss {
+  position: absolute;
+  left: 49vw;
+  top: 19.5vw;
+  width: 23vw;
+}
+
+#teletubbies {
+  position: absolute;
+  left: 13%;
+  top: 21vw;
+  width: 24vw;
+}
+
+
+
+
+#bossstatus {
+  width: 30vw;
+  height: 8vw;
+  position: absolute;
+  left: 57%;
+  top: 4%;
+  text-align: left;
+  font-size: 0;
+ 
+}
+
+#yourstatus {
+  position: absolute;
+  width: 30vw;
+  height: 8vw;
+  text-align: left;
+  left: 10%;
+  top: 2vw;
+  font-size: 0;
+  
+}
+
+#bossstatus span,
+#yourstatus span {
+  margin-left: 1vw;
+  font-size: 2vw;
+  display: inline-block;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+
+#bossstatus span {
+  color: blue;
+}
+
+#yourstatus span  {
+  color: red;  
+}
+
+#battleactions {
+  width: 80vw;
+  height: 12vw;
+  background-color: white;
+  display: inline-block;
+  margin-top: -5px;
+  border-radius: 15px;
+  border: 5px solid black;
+}
+
+#battleasking,
+#fouractions {
+  height: 98%;
+  width: 48%;
+  background-color: white;
+  display: inline-block;
+  border: 0.2vw solid black;
+  vertical-align: top;
+}
+
+#battleasking {
+  font-size: 3.5vw;
+}
+
+#fouractions {
+  font-size: 0;
+}
+
+#actionsword, #actionarrow, #actiondodge, #actiondrinkmilkshake {
+  width: 48%;
+  height: 45%;
+  background-color: lightgray;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.6vw;
+  border-radius: 1vw;
+  border: 0.15vw solid black;
+  margin: 0.2vw;
+}
+
+#OUCH {
+  position: absolute;
+  top: 20%;
+  left: 54%;
+  width: 16vw;
+  visibility: hidden;
+}
+
+#OOF {
+  position: absolute;
+  top: 15%;
+  left: 26%;
+  width: 14vw;
+  visibility: hidden;
+}
+
+#FAIL {
+  position: absolute;
+  top: 16%;
+  left: 28%;
+  width: 30vw;
+  visibility: hidden;
+}
+
+#LOL {
+  position: absolute;
+  top: 25%;
+  right: 28%;
+  width: 10vw;
+  visibility: hidden;
+}
+
+#VS {
+  position: absolute;
+  top: 2vw;
+  left: 46%;
+  width: 6vw;
+}
+
+#controls {
+  color: white;
+}
+
+.healthbar {
+  width: 5vw;
+  background-color: green;
+  height: 1.7vw;
+  display: inline-block;
+  border-style: solid;
+  border-color: black;
+  margin-top: 1vw;
+}
+
+#lefthealthbar {
+  border-radius: 0.3vw 0 0 0.3vw;
+  border-width: 0.3vw 0 0.3vw 0.3vw;
+  
+}
+
+#middlehealthbar {
+  border-width: 0.3vw 0 0.3vw 0;
+}
+
+#righthealthbar {
+  border-radius: 0 0.3vw 0.3vw 0;
+  border-width: 0.3vw 0.3vw 0.3vw 0;
+}
+
+#bosshealthbar {
+  width: 15vw;
+  background-color: green;
+  height: 1.7vw;
+  display: inline-block;
+  border: 0.3vw solid black;
+  border-radius: 0.3vw;
+  margin-top: 1vw;
+}
+
+img {
+	max-width:100%;
+}
